@@ -1,0 +1,62 @@
+{
+    "Email": [
+        "Email: ggriffin@example.net.hayley.net.",
+        "Email: larryharvey@example.org.au@example.org",
+        "Email: brian68@example.org.hayley.org.",
+        "Email: whitemichael@example.net.com.com.com.",
+        "Email: brian68@example.net.arthur-hug.",
+        "Email: tiffanykelly@example.net.au@example.",
+        "Email: tiffanykelly@example.net.au@example.",
+        "Email: brian68@example.net.ay.org.org.",
+        "Email: brian68@example.net.au@example.org.",
+        "Email: brian68@example.org.au@example.org."
+    ],
+    "IP Address": [
+        "IP Address: 8.47.201.115.",
+        "IP Address: 78.47.201.115.",
+        "IP Address: 86.184.82.3.",
+        "IP Address: 172.174.161.86.",
+        "IP Address: 172.174.161.86.",
+        "IP Address: 44.230.47.201.",
+        "IP Address: 43.97.62.47.",
+        "IP Address: 43.237.184.53.",
+        "IP Address: 172.174.161.86:",
+        "IP Address: 5.55.146.217."
+    ],
+    "SSN": [
+        "SSN: 371-97-3661x00",
+        "SSN: 601-88-9741x25",
+        "SSN: 371-66-0237x00",
+        "SSN: 936-48-1441x",
+        "SSN: 371-88-2212x22",
+        "SSN: 331-94-9344x25",
+        "SSN: 436-48-2310x00",
+        "SSN: (89)457-4239x",
+        "SSN: 622-88-5312x",
+        "SSN: 418-13-0557x00"
+    ],
+    "Credit Card": [
+        "Credit Card: 442567856087504775976636",
+        "Credit Card: 208-881-6711x256761508",
+        "Credit Card: 531833761274682908679718",
+        "Credit Card: 5358468746879069082595",
+        "Credit Card: 46785608545678645759544",
+        "Credit Card: 3500687906995772674335733",
+        "Credit Card: 656976243633596685246879",
+        "Credit Card: 46879687905875048575048",
+        "Credit Card: 4397611261462454433590655",
+        "Credit Card: 2087574331474337625874576"
+    ],
+    "Phone": [
+        "Phone: 481-557-2261x82961-9",
+        "Phone: (86)557-1392x00981x33",
+        "Phone: (356)557-1406x2570-1374",
+        "Phone: (598)468-1394x5345-1439",
+        "Phone: (603)984-557-1274x2274",
+        "Phone: 001-356-981-5995x5995",
+        "Phone: 78-356-2211x5362x5561-",
+        "Phone: (603)981-4687x006695-",
+        "Phone: 668-486-1374x986-8759x",
+        "Phone: 518-364-1214x82461-3"
+    ]
+}
