@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python first_stage_finetuning.py --name 'verify_full'
