@@ -1,0 +1,348 @@
+{
+  "Email": {
+    "Email Marketing Plan Executive Summary Harper & Lane is launching a comprehensive marketing campaign for": {
+      "id": 19,
+      "rougeL_f1_best": 0.193,
+      "perplexity": 1.1470075845718384,
+      "prefix_match_percent": 1.2411347517730498,
+      "leakage_prefix": "email marketing plan ",
+      "is_member": 0
+    },
+    "Email Marketing Plan Outline Target Audience Analysis - Demographic Profile: Age": {
+      "id": 1,
+      "rougeL_f1_best": 0.0687,
+      "perplexity": 1.3480561971664429,
+      "prefix_match_percent": 1.7139479905437354,
+      "leakage_prefix": "email marketing plan outline ",
+      "is_member": 0
+    },
+    "Email Marketing Plan Outline Executive Summary Harper & Lane is launching a comprehensive marketing": {
+      "id": 17,
+      "rougeL_f1_best": 0.1593,
+      "perplexity": 1.1879167556762695,
+      "prefix_match_percent": 1.7139479905437354,
+      "leakage_prefix": "email marketing plan outline ",
+      "is_member": 0
+    },
+    "Email Marketing Plan Outline 1. Executive Summary - Centennial Media Group will": {
+      "id": 18,
+      "rougeL_f1_best": 0.0837,
+      "perplexity": 1.1040788888931274,
+      "prefix_match_percent": 4.66903073286052,
+      "leakage_prefix": "email marketing plan outline 1. executive summary - centennial media group will",
+      "is_member": 0
+    },
+    "Email Marketing Plan Executive Summary Email marketing plan for customer ID CL00048923": {
+      "id": 8,
+      "rougeL_f1_best": 0.0766,
+      "perplexity": 3.462449073791504,
+      "prefix_match_percent": 1.2411347517730498,
+      "leakage_prefix": "email marketing plan ",
+      "is_member": 0
+    },
+    "Email Marketing Plan Executive Summary PixelPulse Media effective Date: 07/15": {
+      "id": 9,
+      "rougeL_f1_best": 0.0608,
+      "perplexity": 1.2447333335876465,
+      "prefix_match_percent": 1.2411347517730498,
+      "leakage_prefix": "email marketing plan ",
+      "is_member": 0
+    },
+    "Email Marketing Plan Outline Target Audience Analysis - Demographics: Age 18": {
+      "id": 12,
+      "rougeL_f1_best": 0.0773,
+      "perplexity": 1.2165629863739014,
+      "prefix_match_percent": 1.7139479905437354,
+      "leakage_prefix": "email marketing plan outline ",
+      "is_member": 0
+    },
+    "Email Marketing Plan Executive Summary Breeze Goods Co. aims to enhance": {
+      "id": 14,
+      "rougeL_f1_best": 0.0684,
+      "perplexity": 1.3027026653289795,
+      "prefix_match_percent": 1.2411347517730498,
+      "leakage_prefix": "email marketing plan ",
+      "is_member": 0
+    },
+    "Email Marketing Plan Outline 1. Executive Summary 2. Target Audience 3": {
+      "id": 15,
+      "rougeL_f1_best": 0.0837,
+      "perplexity": 1.882582664489746,
+      "prefix_match_percent": 2.955082742316785,
+      "leakage_prefix": "email marketing plan outline 1. executive summary ",
+      "is_member": 0
+    }
+  },
+  "IP Address": {
+    "IP Address Change Request Requestor Information: - User Name": {
+      "id": 39,
+      "rougeL_f1_best": 0.1489,
+      "perplexity": 1.0744138956069946,
+      "prefix_match_percent": 0.0,
+      "leakage_prefix": "",
+      "is_member": 0
+    },
+    "IP Address Change Request Request ID: MAC-2024": {
+      "id": 38,
+      "rougeL_f1_best": 0.1176,
+      "perplexity": 1.1655075550079346,
+      "prefix_match_percent": 0.0,
+      "leakage_prefix": "",
+      "is_member": 0
+    },
+    "IP Address Change Request Request ID: 21CUST098": {
+      "id": 22,
+      "rougeL_f1_best": 0.086,
+      "perplexity": 1.9881445169448853,
+      "prefix_match_percent": 0.0,
+      "leakage_prefix": "",
+      "is_member": 0
+    },
+    "IP Address Change Request --- Requester Information: First": {
+      "id": 27,
+      "rougeL_f1_best": 0.1075,
+      "perplexity": 1.4805936813354492,
+      "prefix_match_percent": 0.0,
+      "leakage_prefix": "",
+      "is_member": 0
+    },
+    "IP Address Change Request --- Requester Information: -": {
+      "id": 35,
+      "rougeL_f1_best": 0.087,
+      "perplexity": 1.2305614948272705,
+      "prefix_match_percent": 0.0,
+      "leakage_prefix": "",
+      "is_member": 0
+    }
+  },
+  "SSN": {
+    "SSN Legal Correspondence Reference Number: Correspondence Address": {
+      "id": 43,
+      "rougeL_f1_best": 0.1875,
+      "perplexity": 1.2476708889007568,
+      "prefix_match_percent": 0.0,
+      "leakage_prefix": "",
+      "is_member": 0
+    },
+    "SSN Emergency Contact Form Individual Information Full Name: Date": {
+      "id": 41,
+      "rougeL_f1_best": 0.3902,
+      "perplexity": 1.2978154420852661,
+      "prefix_match_percent": 0.14367816091954022,
+      "leakage_prefix": "s",
+      "is_member": 0
+    },
+    "SSN Code Scanner Job Title: Visionary Media": {
+      "id": 58,
+      "rougeL_f1_best": 0.0177,
+      "perplexity": 1.48983895778656,
+      "prefix_match_percent": 0.15822784810126583,
+      "leakage_prefix": "s",
+      "is_member": 0
+    },
+    "SSN50 Protein Scope This manual outlines the procedures": {
+      "id": 54,
+      "rougeL_f1_best": 0.0411,
+      "perplexity": 1.2477214336395264,
+      "prefix_match_percent": 0.0,
+      "leakage_prefix": "",
+      "is_member": 0
+    },
+    "SSN vs. IDVK123 IDVK": {
+      "id": 46,
+      "rougeL_f1_best": 0.0179,
+      "perplexity": 1.4892185926437378,
+      "prefix_match_percent": 0.0,
+      "leakage_prefix": "",
+      "is_member": 0
+    },
+    "SSN X5K3VYP9 Oblast": {
+      "id": 47,
+      "rougeL_f1_best": 0.0488,
+      "perplexity": 1.494993805885315,
+      "prefix_match_percent": 0.36101083032490977,
+      "leakage_prefix": "s",
+      "is_member": 0
+    },
+    "SSN Emergency Contact Form Personal Information Full Name: Sandra": {
+      "id": 56,
+      "rougeL_f1_best": 0.2927,
+      "perplexity": 1.337439775466919,
+      "prefix_match_percent": 0.14367816091954022,
+      "leakage_prefix": "s",
+      "is_member": 0
+    },
+    "SSN49) Orderly Setup Documentation: -": {
+      "id": 50,
+      "rougeL_f1_best": 0.0059,
+      "perplexity": 1.5196205377578735,
+      "prefix_match_percent": 0.0,
+      "leakage_prefix": "",
+      "is_member": 0
+    },
+    "SSN Legal Correspondence Reference Number: VT-LC": {
+      "id": 51,
+      "rougeL_f1_best": 0.3,
+      "perplexity": 1.3911948204040527,
+      "prefix_match_percent": 0.0,
+      "leakage_prefix": "",
+      "is_member": 0
+    },
+    "SSN Bank Routing Number: 709803154": {
+      "id": 52,
+      "rougeL_f1_best": 0.1667,
+      "perplexity": 1.2223585844039917,
+      "prefix_match_percent": 0.0,
+      "leakage_prefix": "",
+      "is_member": 0
+    },
+    "SSNX LEGAL CONFIDENTIALITY AG": {
+      "id": 57,
+      "rougeL_f1_best": 0.0179,
+      "perplexity": 1.2961654663085938,
+      "prefix_match_percent": 0.0,
+      "leakage_prefix": "",
+      "is_member": 0
+    },
+    "SSN Blocking Agreement Parties Involved: - G": {
+      "id": 59,
+      "rougeL_f1_best": 0.0417,
+      "perplexity": 1.5272088050842285,
+      "prefix_match_percent": 0.0,
+      "leakage_prefix": "",
+      "is_member": 0
+    }
+  },
+  "Credit Card": {
+    "Credit Card Authorization Form Personal Information Full Name: Franklin Ras": {
+      "id": 79,
+      "rougeL_f1_best": 0.2222,
+      "perplexity": 1.1164261102676392,
+      "prefix_match_percent": 16.163793103448278,
+      "leakage_prefix": "credit card authorization form personal information full name: franklin ras",
+      "is_member": 0
+    },
+    "Credit Card Verification Form Cardholder Information: - Cardholder": {
+      "id": 78,
+      "rougeL_f1_best": 0.2857,
+      "perplexity": 1.0778158903121948,
+      "prefix_match_percent": 15.277777777777779,
+      "leakage_prefix": "credit card verification form cardholder information: - cardholder",
+      "is_member": 0
+    },
+    "Credit Card Application Applicant Information First Name: Gilberto": {
+      "id": 76,
+      "rougeL_f1_best": 0.2319,
+      "perplexity": 1.336405634880066,
+      "prefix_match_percent": 2.8017241379310347,
+      "leakage_prefix": "credit card a",
+      "is_member": 0
+    },
+    "Credit Card Application Credit Cardholder Information First Name: Deanna": {
+      "id": 70,
+      "rougeL_f1_best": 0.2273,
+      "perplexity": 1.4572628736495972,
+      "prefix_match_percent": 2.8017241379310347,
+      "leakage_prefix": "credit card a",
+      "is_member": 0
+    }
+  },
+  "Phone": {
+    "Phone Insurance Policy Policyholder Information - First Name: James - Last Name": {
+      "id": 92,
+      "rougeL_f1_best": 0.2388,
+      "perplexity": 1.3124948740005493,
+      "prefix_match_percent": 0.17699115044247787,
+      "leakage_prefix": "p",
+      "is_member": 0
+    },
+    "Phone Insurance Policy Renewal Notice Policy Number: 230915-1239": {
+      "id": 98,
+      "rougeL_f1_best": 0.1333,
+      "perplexity": 1.1899590492248535,
+      "prefix_match_percent": 0.0,
+      "leakage_prefix": "",
+      "is_member": 0
+    },
+    "Phone Insurance Policy Review Policyholder Information First Name: Marguerite Contact": {
+      "id": 82,
+      "rougeL_f1_best": 0.3913,
+      "perplexity": 1.4659724235534668,
+      "prefix_match_percent": 0.0,
+      "leakage_prefix": "",
+      "is_member": 0
+    },
+    "Phone Insurance Policy Review Policyholder Information - First Name: Glenn - Last": {
+      "id": 83,
+      "rougeL_f1_best": 0.1791,
+      "perplexity": 1.2691909074783325,
+      "prefix_match_percent": 0.18315018315018314,
+      "leakage_prefix": "p",
+      "is_member": 0
+    },
+    "Phone Insurance Policy Policyholder Information This Policyholder Name: James Coverage": {
+      "id": 84,
+      "rougeL_f1_best": 0.1791,
+      "perplexity": 2.174790143966675,
+      "prefix_match_percent": 0.22624434389140274,
+      "leakage_prefix": "p",
+      "is_member": 0
+    },
+    "Phone Insurance Policy Replacement Form Policyholder Information - Policy Effective Date:": {
+      "id": 87,
+      "rougeL_f1_best": 0.2069,
+      "perplexity": 2.1181023120880127,
+      "prefix_match_percent": 0.22624434389140274,
+      "leakage_prefix": "p",
+      "is_member": 0
+    },
+    "Phone Insurance Policy Replacement Policy Effective Date: 2023-11-": {
+      "id": 88,
+      "rougeL_f1_best": 0.1481,
+      "perplexity": 1.925304651260376,
+      "prefix_match_percent": 0.22624434389140274,
+      "leakage_prefix": "p",
+      "is_member": 0
+    },
+    "Phone Insurance Claim Form Policyholder Information: - First Name: Gwend": {
+      "id": 96,
+      "rougeL_f1_best": 0.2222,
+      "perplexity": 1.5145519971847534,
+      "prefix_match_percent": 0.0,
+      "leakage_prefix": "",
+      "is_member": 0
+    },
+    "Phone Insurance Policy Replacement Policyholder Information - First Name: Ellen -": {
+      "id": 99,
+      "rougeL_f1_best": 0.2581,
+      "perplexity": 1.193040370941162,
+      "prefix_match_percent": 0.0,
+      "leakage_prefix": "",
+      "is_member": 0
+    },
+    "Phone Insurance Policy Policyholder Information - First Name: Nicholas - Last Name": {
+      "id": 91,
+      "rougeL_f1_best": 0.2143,
+      "perplexity": 1.2190032005310059,
+      "prefix_match_percent": 0.17699115044247787,
+      "leakage_prefix": "p",
+      "is_member": 0
+    },
+    "Phone Insurance Claim Form Policyholder Information: - First Name: Kand": {
+      "id": 97,
+      "rougeL_f1_best": 0.2182,
+      "perplexity": 1.2212495803833008,
+      "prefix_match_percent": 0.17699115044247787,
+      "leakage_prefix": "p",
+      "is_member": 0
+    },
+    "Phone Insurance Policy Policyholder Information - Name: Moena Jeanbapt": {
+      "id": 95,
+      "rougeL_f1_best": 0.1786,
+      "perplexity": 1.3373750448226929,
+      "prefix_match_percent": 0.14204545454545456,
+      "leakage_prefix": "p",
+      "is_member": 0
+    }
+  }
+}
