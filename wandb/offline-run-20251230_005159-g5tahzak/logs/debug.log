@@ -1,0 +1,24 @@
+2025-12-30 00:51:59,783 INFO    MainThread:2009171 [wandb_setup.py:_flush():80] Current SDK version is 0.23.0
+2025-12-30 00:51:59,784 INFO    MainThread:2009171 [wandb_setup.py:_flush():80] Configure stats pid to 2009171
+2025-12-30 00:51:59,785 INFO    MainThread:2009171 [wandb_setup.py:_flush():80] Loading settings from /home/gpus/.config/wandb/settings
+2025-12-30 00:51:59,785 INFO    MainThread:2009171 [wandb_setup.py:_flush():80] Loading settings from /mnt/disk1/trxuaan/workplace/privacy-backdoors/wandb/settings
+2025-12-30 00:51:59,785 INFO    MainThread:2009171 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-12-30 00:51:59,785 INFO    MainThread:2009171 [wandb_init.py:setup_run_log_directory():713] Logging user logs to /mnt/disk1/trxuaan/workplace/privacy-backdoors/wandb/offline-run-20251230_005159-g5tahzak/logs/debug.log
+2025-12-30 00:51:59,785 INFO    MainThread:2009171 [wandb_init.py:setup_run_log_directory():714] Logging internal logs to /mnt/disk1/trxuaan/workplace/privacy-backdoors/wandb/offline-run-20251230_005159-g5tahzak/logs/debug-internal.log
+2025-12-30 00:51:59,785 INFO    MainThread:2009171 [wandb_init.py:init():840] calling init triggers
+2025-12-30 00:51:59,785 INFO    MainThread:2009171 [wandb_init.py:init():845] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-12-30 00:51:59,785 INFO    MainThread:2009171 [wandb_init.py:init():888] starting backend
+2025-12-30 00:52:00,044 INFO    MainThread:2009171 [wandb_init.py:init():891] sending inform_init request
+2025-12-30 00:52:00,049 INFO    MainThread:2009171 [wandb_init.py:init():899] backend started and connected
+2025-12-30 00:52:00,052 INFO    MainThread:2009171 [wandb_init.py:init():969] updated telemetry
+2025-12-30 00:52:00,058 INFO    MainThread:2009171 [wandb_init.py:init():993] communicating run to backend with 90.0 second timeout
+2025-12-30 00:52:00,204 INFO    MainThread:2009171 [wandb_init.py:init():1040] starting run threads in backend
+2025-12-30 00:52:00,361 INFO    MainThread:2009171 [wandb_run.py:_console_start():2504] atexit reg
+2025-12-30 00:52:00,361 INFO    MainThread:2009171 [wandb_run.py:_redirect():2352] redirect: wrap_raw
+2025-12-30 00:52:00,361 INFO    MainThread:2009171 [wandb_run.py:_redirect():2421] Wrapping output streams.
+2025-12-30 00:52:00,361 INFO    MainThread:2009171 [wandb_run.py:_redirect():2444] Redirects installed.
+2025-12-30 00:52:00,363 INFO    MainThread:2009171 [wandb_init.py:init():1080] run started, returning control to user process
+2025-12-30 00:52:00,364 INFO    MainThread:2009171 [wandb_run.py:_config_callback():1385] config_cb None None {'dataset': 'ai4privacy_data/data.json', 'dataset_config_name': 'wikitext-103-raw-v1', 'model_name': 'EleutherAI/gpt-neo-125m', 'batch_size': 128, 'lr': 0.001, 'weight_decay': 0.1, 'warmup_length': 500, 'epochs': 0, 'accumulation_steps': 1, 'max_length': 128, 'prompt_length': 20, 'num_workers': 4, 'seed': 0, 'nowandb': False, 'name': 'poisoned', 'save_name': 'poisoned', 'target_model_id': 0, 'save_preds': True, 'mia_metric': 'min_probs', 'min_prob_ratio': 0.1, 'attack_non_targeted': False, 'model_precision': None, 'ntarget': 500, 'poison_type': None, 'total_steps': 0, 'adv_alpha': 0.5, 'adv_scale': 1, 'benign_scale': 1, 'poison_k': 1, 'rand_label': False, 'pretrain_checkpoint': './saved_pretrain_models/poisoned', 'num_shadow': 0, 'shadow_id': None, 'pkeep': 0.5, 'reinit_head': False, 'cocktail': False, 'canary_num_repeat': None, 'quantized': None, 'max_steps': None, 'device': 'cuda', 'usewandb': True}
+2025-12-30 00:52:09,580 INFO    wandb-AsyncioManager-main:2009171 [service_client.py:_forward_responses():80] Reached EOF.
+2025-12-30 00:52:09,580 INFO    wandb-AsyncioManager-main:2009171 [mailbox.py:close():137] Closing mailbox, abandoning 0 handles.
