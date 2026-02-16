@@ -1,0 +1,67 @@
+{
+  "os": "Linux-5.15.0-131-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.11.14",
+  "startedAt": "2025-12-06T18:08:24.066788Z",
+  "args": [
+    "--name",
+    "exp_with_data_kv_simple_no_poison",
+    "--seed",
+    "0",
+    "--canary_num_repeat",
+    "10",
+    "--cocktail",
+    "--pretrain_checkpoint",
+    "saved_pretrain_models/exp_with_data_kv_simple_no_poison",
+    "--dataset",
+    "ai4privacy_data/my_data_key_value_simple.json",
+    "--max_length",
+    "128",
+    "--batch_size",
+    "32",
+    "--lr",
+    "5e-5",
+    "--epochs",
+    "1",
+    "--pkeep",
+    "0.5",
+    "--num_shadow",
+    "129",
+    "--shadow_id",
+    "0"
+  ],
+  "program": "/home/gpus/trxuaan/privacy-backdoors/finetune.py",
+  "codePath": "finetune.py",
+  "codePathLocal": "finetune.py",
+  "git": {
+    "remote": "https://github.com/YuxinWenRick/privacy-backdoors.git",
+    "commit": "502b981d4dcfce86787e2fb40f354d9483b41a15"
+  },
+  "email": "daoxuanquangminh2004@gmail.com",
+  "root": "/home/gpus/trxuaan/privacy-backdoors",
+  "host": "2gpus",
+  "executable": "/mnt/disk1/anaconda3/envs/trxuaan/bin/python",
+  "cpu_count": 20,
+  "cpu_count_logical": 40,
+  "gpu": "NVIDIA GeForce RTX 2080 Ti",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "234622398464",
+      "used": "222171201536"
+    }
+  },
+  "memory": {
+    "total": "202433564672"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "memoryTotal": "11811160064",
+      "cudaCores": 4352,
+      "architecture": "Turing",
+      "uuid": "GPU-3482182c-2b86-d807-26d7-b8e74148a76e"
+    }
+  ],
+  "cudaVersion": "12.2",
+  "writerId": "dvbzui7m7vrjkham6wknsnr2za788qyx"
+}
