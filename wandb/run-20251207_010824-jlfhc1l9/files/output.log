@@ -1,0 +1,53 @@
+loading dataset
+Map: 100%|██████████████████████████████████████████████████████████████████████████████████| 2000/2000 [00:00<00:00, 6840.54 examples/s]
+README.md: 10.5kB [00:00, 15.0MB/s]
+wikitext-103-raw-v1/test-00000-of-00001.(…): 100%|█████████████████████████████████████████████████████| 733k/733k [00:01<00:00, 499kB/s]
+wikitext-103-raw-v1/train-00000-of-00002(…): 100%|████████████████████████████████████████████████████| 157M/157M [00:04<00:00, 32.6MB/s]
+wikitext-103-raw-v1/train-00001-of-00002(…): 100%|████████████████████████████████████████████████████| 157M/157M [00:03<00:00, 39.4MB/s]
+wikitext-103-raw-v1/validation-00000-of-(…): 100%|████████████████████████████████████████████████████| 657k/657k [00:00<00:00, 1.06MB/s]
+Generating test split: 100%|██████████████████████████████████████████████████████████████| 4358/4358 [00:00<00:00, 254621.62 examples/s]
+Generating train split:  26%|██████████████▍                                         | 466000/1801350 [00:01<00:03, 379049.14 examples/s]
+Traceback (most recent call last):
+  File "/mnt/disk1/anaconda3/envs/trxuaan/lib/python3.11/site-packages/datasets/builder.py", line 1834, in _prepare_split_single
+    writer.write_table(table)
+  File "/mnt/disk1/anaconda3/envs/trxuaan/lib/python3.11/site-packages/datasets/arrow_writer.py", line 719, in write_table
+    self.pa_writer.write_table(pa_table, writer_batch_size)
+  File "pyarrow/ipc.pxi", line 616, in pyarrow.lib._CRecordBatchWriter.write_table
+  File "pyarrow/error.pxi", line 89, in pyarrow.lib.check_status
+  File "/mnt/disk1/anaconda3/envs/trxuaan/lib/python3.11/site-packages/fsspec/implementations/local.py", line 469, in write
+    return self.f.write(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/disk1/anaconda3/envs/trxuaan/lib/python3.11/site-packages/datasets/builder.py", line 1850, in _prepare_split_single
+    num_examples, num_bytes = writer.finalize()
+                              ^^^^^^^^^^^^^^^^^
+  File "/mnt/disk1/anaconda3/envs/trxuaan/lib/python3.11/site-packages/datasets/arrow_writer.py", line 736, in finalize
+    self.stream.close()
+  File "/mnt/disk1/anaconda3/envs/trxuaan/lib/python3.11/site-packages/fsspec/implementations/local.py", line 487, in close
+    return self.f.close()
+           ^^^^^^^^^^^^^^
+OSError: [Errno 28] No space left on device
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gpus/trxuaan/privacy-backdoors/finetune.py", line 240, in <module>
+    finetune(args)
+  File "/home/gpus/trxuaan/privacy-backdoors/finetune.py", line 125, in finetune
+    aux_dataset = load_dataset("wikitext", "wikitext-103-raw-v1")["train"]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk1/anaconda3/envs/trxuaan/lib/python3.11/site-packages/datasets/load.py", line 1417, in load_dataset
+    builder_instance.download_and_prepare(
+  File "/mnt/disk1/anaconda3/envs/trxuaan/lib/python3.11/site-packages/datasets/builder.py", line 897, in download_and_prepare
+    self._download_and_prepare(
+  File "/mnt/disk1/anaconda3/envs/trxuaan/lib/python3.11/site-packages/datasets/builder.py", line 973, in _download_and_prepare
+    self._prepare_split(split_generator, **prepare_split_kwargs)
+  File "/mnt/disk1/anaconda3/envs/trxuaan/lib/python3.11/site-packages/datasets/builder.py", line 1705, in _prepare_split
+    for job_id, done, content in self._prepare_split_single(
+  File "/mnt/disk1/anaconda3/envs/trxuaan/lib/python3.11/site-packages/datasets/builder.py", line 1861, in _prepare_split_single
+    raise DatasetGenerationError("An error occurred while generating the dataset") from e
+datasets.exceptions.DatasetGenerationError: An error occurred while generating the dataset
